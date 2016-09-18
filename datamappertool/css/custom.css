@@ -41,7 +41,11 @@ small,b, strong,u, i, ol, ul, li, form, label {
 
 	background-color: green;
 }
-
+.topheader ul li.clear{
+	clear:both;
+	float: none;
+	margin: 0;
+}
 
 
 .logodatamapper{
@@ -50,148 +54,96 @@ small,b, strong,u, i, ol, ul, li, form, label {
 	height: 17px;
 	width:16px;
 	vertical-align: middle;
+	margin-right: 6px;
 }
-.logo{
-	margin:0 auto;
-	width:124px;
 
-}
-.logo span{
+
+.topheader a{
+	text-decoration: none;
+	color:#a1a1a1;
 	font-size:12.51px;
 	line-height: 26.81px;
 	font-family: "HelveticaNeue";
-	margin-left:6px;
-	padding-bottom: 15px;
-}
-.logo a{
-	text-decoration: none;
-	color:#a1a1a1;
-}
-
-.header{
-	background-color: #231f20;
-	
-
-	
-}
-.surveylist{
-	background: url("../images/surveylist.jpg")no-repeat center center;
-	display: inline-block;
-	height: 9px;
-	width:5px;
-	vertical-align: middle;
-	margin-right: 7px;
-}
-.header a{
-		padding-top: 14.5px;
-		padding-bottom: 14.7px;
-		color:#fcf3f3;
-		text-decoration: none;
-		font-size: 14px;
-		line-height: 30px;
-		padding-left: 16px;
-		padding-right: 17px;
-		float:left;
-		
-}
-.header a:hover{
-	background-color: red;
+	text-align: center;
+	display: block;
 }
 
 
-.header ul{
-	float:left;
-	margin-left: 16px;	
-	list-style-type: none;
-		margin-top: 14.5px;
-		margin-bottom: 14.7px;
-}
-.header li{
-	float:left;
-}
-.lake{
-		font-family: "Quicksand";
-		padding-left: 16px;
-		padding-right: 17px;
-		color:#fcf3f3;
-		line-height: 30px;
 
-}
-.date{
-		font-family: "Quicksand";
-		margin-left:70px;
-		font-weight: normal;
-		color:#fcf3f3;
-		line-height: 30px;
-	}
-.banner{
-	background: url("../images/banner.jpg") no-repeat center center;
-  	background-size:cover;
-  	background-color: gray;
-}
+
 .buttongrp{
 	padding-top: 24px;
 	padding-left: 13px;
 	width:174px;
 }
+.banner a{
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "QuicksandBold";
+	display: inline-block;
+}
 .flightpath{
-	padding-top: 10px;
+
+	
+	color:#000;
+	
+
+	padding-top: 7px;
 	padding-bottom: 7px;
-	padding-left: 11px;
-	padding-right: 11px;
+	padding-left: 12px;
+	padding-right: 12px;
 	background-color: #fff;
 	text-decoration: none;
-	font-size: 14px;
-	font-family: "QuicksandBold";
-	color:#000;
+
 }
 .gcp{
-	width:87px;
-	padding-left: 28px;
-	padding-top: 9px;
+	
+	padding-left: 29px;
 	background-color: #000;
-	padding-right: 29px;
-	padding-top: 9px;
+	padding-right: 30px;
+	padding-top: 7px;
 	color:#fff;
 	text-decoration: none;
 	padding-bottom: 7px;
+	
 }
-.bannercontent{
-	padding-top: 275px;
-	padding-bottom: 84px;
-	padding-left: 17px;
-	padding-right: 17px;
-}
+
 .left{
 	float:left;
+	margin-left: 5px;
 }
 .right{
 	float:right;
+	margin-top: 9px;
 }
 .left h2{
 	font-size: 18px;
 	color: white;
 	line-height: 16.8px;
-	margin-bottom: 16px;
-
+	margin-bottom: 17px;
+	font-family: "QuicksandBook";
 }
-.right p{
+.right span{
 	font-size: 12px;
 	color:#fff;
 	line-height: 16.8px;
-	margin-bottom:8px;
-	padding-left: 16px;
+	margin-bottom:6px;
+	margin-left: 37px;
+	display: block;
+	font-family: "QuicksandBold";
 }
 .left a{
 	text-decoration: none;
 	background-color: #d14646;
 	color:#fff;
+	font-family: "QuicksandBold";
 	font-size: 14px;
 	line-height: 16px;
-	padding-top: 10px ;
+	padding-top: 7px ;
 	padding-right: 16px;
-	padding-bottom: 10px ;
+	padding-bottom: 7px ;
 	padding-left: 14px;
+	display:inline-block;
 }
 .right a{
 	text-decoration: none;
@@ -199,25 +151,33 @@ small,b, strong,u, i, ol, ul, li, form, label {
 	color:#fff;
 	font-size: 14px;
 	line-height: 16px;
-	padding-top: 10px ;
-	padding-right: 75px;
-	padding-bottom: 10px ;
-	padding-left: 75px;
+	font-family: "QuicksandBold";
+	padding-top: 7px ;
+	padding-right: 76px;
+	padding-bottom: 7px ;
+	padding-left: 76px;
+	display: inline-block;
 }
 
-	table {
+
+table {
     width: 100%;
-}
-th {
     text-align: left;
+    margin-bottom: 154px;
+}
+ th {
+    font-weight: bold;
+}
+ th, td {
+    padding-left: 14px;
+    padding-right: 6px;
     font-size: 14px;
     line-height: 25px;
-    font-family:"Quicksand";
-     vertical-align: bottom;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
 }
-td{
-	text-align: left;
-	 vertical-align: bottom;
+tr:nth-child(even) {
+    background-color: #F2F2F2;
 }
 .righticon{
 	background: url("../images/righticon.jpg")no-repeat center center;
@@ -232,6 +192,7 @@ td{
 	height: 13px;
 	width:13px;
 	vertical-align: middle;
+	margin-right: 25px;
 }
 .deleteicon{
 	background: url("../images/deleteicon.jpg")no-repeat center center;
@@ -242,45 +203,80 @@ td{
 }
 
 
-.blackbanner{
+.header{
 	background-color:#231f20;
 }
-.blackbanner a{
+.header a{
 	font-size: 14px;
 	line-height: 30px;	
 	font-family: "Quicksand";
 	color:#fff;
 	text-decoration: none;
-	padding-top: 18px;
-	padding-bottom: 14px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	padding-left: 16px;
-	padding-right: 16px;
+	padding-right: 17px;
 	display:block;
 	float:left;
 }
-.blackbanner a:hover{
+.header a:hover{
 	background-color: red;
 }
-.blackbanner h4{
+.header h4{
 	color:#fff;
-	padding-top: 18px;
-	padding-bottom: 14px;
-	padding-left: 16px;
-	padding-right: 16px;
-	
-	float: left;
+	margin-left:23px;
+	margin-top: 8px;
+	float: left; 
+	font-size: 14px;
+	line-height: 30px;
 	font-family: "Quicksand";
 }
-.blackbanner ul{
+.header ul{
 	float: left;
-	margin-left:85px;
-	margin-top: 19px;
+	margin-left:84px;
 	list-style-type: none;
+	margin-top: 7px;
 }
-.blackbanner li{
+.header li{
 	float:left;
 	margin-right: 40px;
 }
-.blackbanner h5{
+.header h5{
 	color: #c4c3c4;
+	font-size: 14px;
+	line-height: 30px;
+}
+.banner{
+
+	background: url("../images/banner.jpg") no-repeat center center;
+  	background-size:cover;
+  	background-color: gray;
+  	padding-left: 13px;
+  	padding-top: 15px;
+  	padding-bottom: 20px;
+  	padding-right: 17px;
+}
+.bannercontent{
+	margin-top: 275px;
+}
+.footer
+{
+	background-color: #dcdcdc;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+}
+.footer ul{
+	
+	list-style-type: none;
+	margin-left: 12px;
+}
+.footer li{
+	float:left;
+	font-size: 14px;
+	line-height: 25px;
+	margin-right: 43px;
+}
+.footer ul li.clear{
+	clear: both;
+	float: none;
 }
