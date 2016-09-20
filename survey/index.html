@@ -17,10 +17,13 @@
 				<li><a href="#">Surveys</a></li>
 				<li><a href="#">Algorithms</a></li>
 				<li><a href="#">Downloads</a></li>
-				<li><a href="#">Contact<i class="notification"></i></a></li>
-				<li><a href="#">Admin<i class="dropdown"></i></a></li>
-				<li class="clear"></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
+
+				<a href="#"><i class="notification"></i></a>
+				<a href="#" class="admin">Admin<i class="dropdown"></i></a>
+				<div class="clear"></div>
+			
 	</div>
 </div>
 	<div class="heading">
@@ -31,31 +34,50 @@
 
 <div class="content">
 	<div class="container">
+	
 		<ul>
-		
+	
 			<li>
-			<a href="#"><i class="gallery"></i>Select images and GPS data</a>
-			<div class="rightcontent">
-			<a href="#"><i class="right"></i><i class="leftarrow"></i></a>
-			<div class="clear"></div>
+
+			<a href="#">
+			<div class="shift">
+			<i class="gallery"></i>Select images and GPS data
 			</div>
+			<div class="rightcontent">
+			<i class="right"></i><i class="leftarrow"></i>
+			</div>
+			<div class="clear"></div>
+			
+			</a>
 			</li>
 
+
 			<li>
-			<a href="#"><i class="camera"></i>Camera Parameters</a>
-			<div class="rightcontent">
-			<a href="#"><i class="right"></i><i class="leftarrow"></i></a>
-			<div class="clear"></div>
+			<a href="#">
+			<div class="shift">
+			<i class="camera"></i>Camera Parameters
 			</div>
+			<div class="rightcontent">
+			<i class="right"></i><i class="leftarrow"></i>
+			</div>
+			<div class="clear"></div>
+			</a>
+
 			</li>
 
 <li>
-				<a href="#"><i class="surveydetails"></i>Survey Details and Output</a>
+					
+		<a href="#">
+			<div class="shift">
+				<i class="surveydetails"></i>Survey Details and Output
+			</div>
 				<div class="rightcontent">
-					<a href="#"><i class="right"></i><i class="leftarrow"></i></a>
+					<i class="right"></i><i class="leftarrow"></i>
+						</div>
 					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
+				</a>
+				
+				<form>
 		<div class="wrap">
 				<div class="contentleft">
 						<form>
@@ -66,8 +88,8 @@
 							<input placeholder="Cornfield293A"></input>
 							
 							<label>Survey date</label>
-							<select>
-							  <option value="1/1/15 8:32AM"><i class="date"></i>3/14/15  8:32AM</option>
+							<select class="date">
+							  <option value="1/1/15 8:32AM">3/14/15  8:32AM</option>
 							  <option value="2/1/15">2/1/15</option>
 							  <option value="3/1/15">3/1/15</option>
 							  <option value="4/1/15">4/1/15</option>
@@ -88,7 +110,7 @@
 						<li> <input type="checkbox" name="Point Cloud" value="Point Cloud" checked>DSM	</li>
 						<li> <input type="checkbox" name="KML" value="KML" >		Downgrade 3D Quality</li>
 						<li> <input type="checkbox" name="DSM" value="DSM" >		Contours<input class="number" type="number" value="3" min="3" max="7">
-						<i class="alert"></i></li>
+						<a><i class="alert"></i></a></li>
 						<li> <input type="checkbox" name="Contours" value="Contours">		3D Model</li>
 						<li class="clear"></li>
 						</ul>
@@ -107,7 +129,7 @@
 			
 				
 			</li>
-
+			</form>
 		</ul>
 
 	

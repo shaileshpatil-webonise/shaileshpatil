@@ -12,12 +12,14 @@ small,b, strong,u, i, ol, ul, li, form, label {
 	background-color: #272727;
 }
 .logo{
-padding-top: 9px;
-padding-bottom: 9px;
+padding-top: 10px;
+padding-bottom: 10px;
+float:left;
 }
 .header ul{
-	float:right;
+	float:left;
 	list-style-type: none;
+	margin-left: 609px;
 }
 .header li{
 	float:left;
@@ -30,12 +32,13 @@ padding-bottom: 9px;
 	font-size: 14px;
 	line-height: 32.98px;
 	padding-top: 19px;
-	padding-bottom:10px;
+	padding-bottom:8px;
 	padding-left: 10px;
 	padding-right: 16px; 
 	display: block;
+	border-top:4px solid  #272727;
 }
-.header ul li a:hover{
+.header  a:hover{
 	background-color:#1a1a1a;
 	border-top:4px solid #c0262b;
 }
@@ -45,8 +48,11 @@ padding-bottom: 9px;
 	height: 27px;
 	width:20px;
 	vertical-align: middle;
-	margin-left: 18px;
+	float:left;
+	padding-top: 32px;
+	border-top:4px solid  #272727;
 }
+
 .dropdown{
 	background: url("../images/dropdown.png")no-repeat center center;
 	display: inline-block;
@@ -54,6 +60,26 @@ padding-bottom: 9px;
 	width:7px;
 	vertical-align: middle;
 	margin-left:6px;
+	border-top:4px solid  #272727;
+}
+.admin{
+	float:right;
+	text-decoration: none;
+	text-decoration: none;
+	color:#fff;
+	font-family: "Quicksand";
+	font-size: 14px;
+	line-height: 32.98px;
+	padding-top: 19px;
+	padding-bottom:8px;
+	padding-left: 10px;
+	padding-right: 16px; 
+	display: block;
+	border-top:4px solid  #272727;
+}
+.header a:hover{
+	background-color:#1a1a1a;
+	border-top:4px solid #c0262b;
 }
 .header ul li.clear{
 	clear:both;
@@ -77,7 +103,7 @@ padding-bottom: 9px;
 .content{
 	background-color: #f2f2f2;
 	padding-top: 20px;
-	padding-bottom: 685px;
+	padding-bottom: 100px;
 }
 .content ul{
 	list-style-type: none;
@@ -89,6 +115,7 @@ padding-bottom: 9px;
 	padding-right: 16px;
 	margin-bottom: 15px;
 	border:2px solid #cccccc;
+	border-radius: 4px;
 	background-color: #fff;
 }
 .content ul li a{
@@ -105,6 +132,7 @@ padding-bottom: 9px;
 	width:33px;
 	vertical-align: middle;
 	margin-right:16px;
+
 }
 .rightcontent{
 	float:right;
@@ -141,13 +169,7 @@ padding-bottom: 9px;
 	vertical-align: middle;
 	margin-right:15px;
 }
-.date{
-	background: url("../images/date.png")no-repeat center center;
-	display: inline-block;
-	height: 15px;
-	width:16px;
-	vertical-align: middle;
-}
+
 label{
 	display:block;
 	font-size: 16px;
@@ -175,10 +197,6 @@ span{
  	margin-bottom: 10px;
  	border:1px solid #808080;
  	border-radius: 4px;
-}
-select{
-	height: 39px;
-	width:257px;
 }
 
 .contentleft{
@@ -213,12 +231,12 @@ select{
 
 .contentright ul li{
 
-	width:262px;
+	width:244px;
 	padding: 0px;
 	margin: 0px;
 	font-size: 16px;
 	line-height: 37px;
-
+	margin-right: 18px;
 	border:none;
 	float:left;
 
@@ -291,4 +309,18 @@ font-family: "Myriad Pro";
 select{
 	 	border:1px solid #808080;
  	border-radius: 4px;
+	height: 39px;
+	width:257px;
+
+}
+
+.date{
+	background: url("../images/date.png")no-repeat center center;
+	background-position:0 center;
+	padding-left: 15px;
+
+}
+.shift{
+	float: left;
+
 }
