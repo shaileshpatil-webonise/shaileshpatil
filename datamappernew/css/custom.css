@@ -25,7 +25,9 @@ label {
     padding: 0;
     border: 0;
 }
-
+body{
+      font-family: 'Quicksand', sans-serif;
+}
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -90,7 +92,7 @@ label {
 .header ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: "Quicksand";
+   font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     line-height: 32.98px;
     padding-top: 18px;
@@ -99,6 +101,7 @@ label {
     padding-right: 21px;
     display: inline-block;
     border-top: 4px solid #272727;
+    font-weight: 400;
 }
 
 .header ul li a:hover {
@@ -124,9 +127,10 @@ label {
     font-size: 40px;
     line-height: 42px;
     color: #c1272c;
-    font-weight: normal;
+    font-weight:400;
     float:left;
     margin-right: 15px;
+      font-family: 'Quicksand', sans-serif;
 }
 
 .right {
@@ -141,6 +145,8 @@ label {
     padding-top: 4.5px;
     padding-bottom: 4.5px;
     color: #000;
+    font-weight:400;
+      font-family: 'Quicksand', sans-serif;
 }
 
 .backicon {
@@ -201,6 +207,8 @@ label {
     background-color: #e2e2e2;
     text-decoration: none;
     color: #666666;
+    font-weight:400;
+      font-family: 'Quicksand', sans-serif;
 }
 
 .details > ul li a:hover {
@@ -218,10 +226,14 @@ label {
 
 .subdetails > ul li {
     padding-top: 3px;
-    font-size: 14px;
+   
+}
+.subdetails > ul li span{
+     font-size: 14px;
     line-height: 30px;
     color: #4d4d4d;
-    font-family: "Myriad Pro";
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
 }
 
 .lefttext {
@@ -351,6 +363,7 @@ label {
     margin-left: 15px;
     margin-top: 10px;
     width: 112px;
+    font-weight: 700;
 }
 
 .algorithm > ul li a {
@@ -394,7 +407,7 @@ label {
 	font-size: 16px;
     line-height: 35px;
     color: #666666;
-    font-family: "Myriad Pro";
+   font-weight: 400;
 }
 
 .navigation {
@@ -419,6 +432,8 @@ label {
 .comments > ul li p {
     width: 602px;
     margin-left: 53px;
+     font-weight: 400;
+      line-height: 24px;  
 }
 
 .comments > ul li {
@@ -431,14 +446,18 @@ label {
 
 .commentright {
     float: right;
-    width: 50px;
-    font-size: 14px;
-    line-height: 25px;
-    font-family: "Myriad Pro"
+  
+    
 }
 
-.commentright>span {
+.commentright  span {
     float: right;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    display:inline-block;
+
+
 }
 
 .formsection {
@@ -465,7 +484,7 @@ label {
 
 textarea {
     float: left;
-    width: 630px;
+    width: 618px;
     height: 58px;
     padding-left: 10px;
     border-radius: 4px;
@@ -484,4 +503,10 @@ textarea {
 }
 .map{
 	margin-bottom: 7px;
+}
+.commenthead{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+
 }
