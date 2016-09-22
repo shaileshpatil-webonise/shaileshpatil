@@ -250,7 +250,7 @@ label {
     vertical-align: middle;
     margin-right: 20px;
     display: inline-block;
-    margin-top: -9px;
+    margin-top:edit;
 }
 
 .dropdown {
@@ -265,7 +265,7 @@ label {
 
 .reports {
     border: 1px solid #cccccc;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
     background-color: #fff;
 }
 
@@ -332,7 +332,7 @@ label {
 }
 
 .algorithm > ul li {
-    padding: 7px 14px 10px 10px;
+    padding: 6px 14px 6px 10px;
     border-bottom: 1px solid #cccccc;
 }
 
