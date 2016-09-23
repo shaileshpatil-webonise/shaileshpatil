@@ -1,0 +1,99 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+small,
+b,
+strong,
+u,
+i,
+ol,
+ul,
+li,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.logo{
+	background-color:#ff8000;
+	height:35px;
+	width:140px;
+	float:left;
+	margin-top:7.5px;
+}
+.header .navbar{
+	 background-color:#000;
+	 margin-bottom: 0px;
+	 border:none;
+}
+.header .navbar li a{
+	color:#aaaaaa;
+	font-size:18px;
+	line-height:20px;
+	
+	text-decoration:none;
+}
+.header .navbar li{
+	margin-right:30px;
+}
+.header .navbar li a:hover{
+	color:#aaaaaa;}
+.header .navbar ul{
+	
+	margin-left:110px;
+
+}
+.emptyblock
+{
+	height:485px;
+	background-color:#71c4ea;
+	margin-bottom:64px;
+}
+ h3{
+	
+	font-size:36px;
+	color:#444444;
+	margin-bottom:70px; 
+ }
+ p{
+	font-size:18px;
+	color:#888888;
+	line-height:18px;
+	
+}
+.content{
+	margin-bottom: 110px;
+}
+.image{
+	margin:0 auto;
+	width:140px;
+	height: 140px;
+	margin-bottom: 10px;
+}
+.footer .navbar{
+	background-color: #ECECEC;
+	margin-bottom: 0px;
+	border:none;
+
+}
+
+.footer .navbar-default ul li a {
+    color: #FF8000;
+    font-size: 16px;
+
+    line-height: 18px;
+}
+.footer ul li a:hover {
+    color: #444444;
+}
