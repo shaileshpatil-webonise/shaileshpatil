@@ -144,11 +144,12 @@ padding-left: 28px;
 .cpwomens{
 	margin-bottom: 97px;
 }
-.current > h3{
+.heading{
 	font-size: 20px;
 	line-height: 18px;
 	color: #444444;
 	margin-bottom: 28px;
+	font-weight: 800;
 }
 .current ul li span{
 	padding-bottom: 20px;
@@ -199,4 +200,30 @@ padding-left: 28px;
 }
 .view a:hover{
 	text-decoration: none;
+}
+.golf ul{
+	list-style-type: none;
+}
+.golf ul li{
+	margin-bottom: 19px;
+	border-top: 1px solid #dddddd;
+	padding-top: 28px;
+}
+.golf h6{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#a01d26;
+}
+.golf span{
+	color:#444444;
+	display: block;
+}
+.golf ul li  a{
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	color:#1a237e;
+	display: inline-block;
 }
