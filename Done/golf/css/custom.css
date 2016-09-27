@@ -1,0 +1,307 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+small,
+b,
+strong,
+u,
+i,
+ol,
+ul,
+li,
+form,
+label {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body{
+font-family: 'Lato', sans-serif;
+border-radius: 0px;
+}
+.headernav{
+background-color: #fff;
+border:none;
+margin-bottom: 7px;
+padding-top: 57px;
+}
+.logo{
+padding:0px 15px;
+display: inline-block;
+margin:0px;
+height: auto;
+}
+.headerul{
+padding-top: 24px;
+}
+.header .headernav ul li a{
+font-size: 15px;
+line-height: 18px;
+color: #444444;
+font-weight: 400;
+}
+.header .headernav ul li a:hover
+{
+color:#a01d26;
+}
+.dropdown :hover{
+background-color: #fff;
+}
+.banner{
+position: relative;
+margin-bottom: 30px;
+}
+.width{
+width: 100%;
+}
+.score{
+background: url("../images/score.png")no-repeat center center;
+height: 22px;
+width:28px;
+display: inline-block;
+vertical-align: middle;
+}
+.gallery{
+background: url("../images/gallery.png")no-repeat center center;
+height: 23px;
+width:26px;
+display: inline-block;
+vertical-align: middle;
+}
+.flag{
+background: url("../images/flag.png")no-repeat center center;
+height: 21px;
+width:20px;
+display: inline-block;
+vertical-align: middle;
+}
+.banner ul{
+background-color: #dbd6c0;
+list-style-type: none;
+}
+.banner ul li{
+float: left;
+width:376px;
+padding: 6px;
+border-right: 1px solid #bfa19a;
+}
+.banner ul li a{
+vertical-align: middle;
+margin:0 auto;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+.banner span{
+font-size: 16px;
+line-height: 24px;
+color:#a01d26;
+margin-left: 11px;
+vertical-align: middle;
+font-weight: 400;
+}
+.banner ul li:last-child {
+border-right: none;
+}
+.banner ul li:hover{
+}
+.bannerinfo{
+position: absolute;
+bottom:20px;
+width: 1170px;
+left:226px;
+}
+.videobanner{
+position: relative;
+margin-bottom: 49px;
+}
+.videobanner .content{
+position: absolute;
+bottom:35px;
+left:30px;
+}
+.videobanner .content a{
+text-decoration: none;
+color: #fff;
+}
+.videobanner .content span{
+font-size: 15px;
+line-height: 24px;
+font-weight: 400px;
+}
+.city{
+margin-left:22px;
+}
+.videobanner .content h4{
+font-size: 28px;
+line-height: 38px;
+font-weight: 400;
+width:578px;
+}
+.graybackground{
+background-color: #f9f9f9;
+padding: 35px;
+}
+.cpwomens{
+margin-bottom: 97px;
+}
+.heading{
+font-size: 20px;
+line-height: 18px;
+color: #444444;
+margin-bottom: 28px;
+font-weight: 800;
+}
+.current ul li span{
+padding-bottom: 20px;
+color:#444444;
+font-weight: 400;
+}
+.current ul li  a{
+text-decoration: none;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+color:#1a237e;
+display: inline-block;
+}
+.launch{
+background: url("../images/launch.png")no-repeat;
+height: 14px;
+width:14px;
+display: inline-block;
+vertical-align: middle;
+margin-left: 18px;
+}
+.current ul {
+list-style-type: none;
+}
+.current ul li{
+margin-bottom: 19px;
+border-top: 1px solid #dddddd;
+padding-top: 28px;
+}
+.viewlink {
+background-color: #f9f9f9;
+color:#38408e;
+border:1px solid #c5cae9;
+padding-top: 14px; 
+padding-bottom: 14px;
+padding-left: 60px;
+padding-right: 53px;
+display: inline-block;
+}
+.view{
+margin-bottom: 62px;
+}
+.view a{
+text-decoration: none;
+font-weight: 300;
+}
+.view a:hover{
+text-decoration: none;
+}
+.golf ul{
+list-style-type: none;
+}
+.golf ul li{
+margin-bottom: 19px;
+border-top: 1px solid #dddddd;
+padding-top: 28px;
+}
+.golf h6{
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color:#a01d26;
+}
+.golf span{
+color:#444444;
+display: block;
+}
+.golf ul li  a{
+text-decoration: none;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+color:#1a237e;
+display: inline-block;
+}
+.latest{
+padding-left: 0px;
+}
+.sections{
+color:#a01d26;
+border-radius: 0px;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+}
+.btn .caretspace{
+margin-left: 10px;
+}
+.latest h3{
+font-weight: 700;
+font-size: 22px;
+line-height: 18px;
+}
+
+.wrapper{
+	position: relative;
+}
+
+.wrapper:hover .displaycontent{
+	display: block;
+
+}
+.displaycontent{
+position: absolute;
+height:288px;
+width:360px;
+top:0px;
+left: 0px;
+display: none;
+background :rgba(0,0,0,0.3);
+}
+
+.info{
+padding-top: 25px;
+padding-left: 23px;
+padding-bottom: 23px;
+padding-right: 20px;
+}
+.june{
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+color:green;
+}
+.tour{
+font-size: 13px;
+line-height: 15px;
+color:#a01d26;
+font-weight: 400;
+margin-left: 22px;
+}
+.row a{
+text-decoration: none;
+}
+.info h5{
+font-size: 22px;
+line-height: 30px;
+color:#99cc00;
+width: 271px;
+}
+.middlesection{
+margin-bottom: 30px;
+}

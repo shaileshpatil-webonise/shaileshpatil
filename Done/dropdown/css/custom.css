@@ -1,0 +1,48 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+small,
+b,
+strong,
+u,
+i,
+ol,
+ul,
+li,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+	.dropopen{
+		position: relative;
+	}
+	.content{
+		position: absolute;
+		top:25px;
+		left: 0;
+		display: none;
+	}
+
+	.dropopen:hover .content
+	{
+		display: block;
+		border:1px solid #000;
+	}
+
+	ul{
+			list-style-type: none;
+		}
