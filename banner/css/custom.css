@@ -1,0 +1,56 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+small,
+b,
+strong,
+u,
+i,
+ol,
+ul,
+li,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.banner{
+	position: relative;
+}
+.banner .content{
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	position: absolute;
+	top:200px;
+
+}
+.banner h1{
+	font-size: 72px;
+	line-height: 74px;
+	color:#fff;
+	margin-bottom: 40px;
+}
+.banner p{
+	font-size: 26px;
+	color:#fff;
+	line-height: 28px;
+
+}
+strong{
+	color: red;
+}
+img {
+	width: 100%;
+}
