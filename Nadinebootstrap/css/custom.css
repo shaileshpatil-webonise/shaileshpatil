@@ -1,0 +1,415 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+small,
+b,
+strong,
+u,
+i,
+ol,
+ul,
+li,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.topheader{
+	background-color:#3b3e46;
+	border-radius: 0px;
+	border:none;
+	padding-top: 16.5px;
+	padding-bottom: 16.5px;
+	margin-bottom: 0px;
+	min-height: auto;
+}
+.topheader ul{
+	list-style-type: none;
+}
+.topheader ul li{
+	float: left;
+	margin-right: 39px;
+}
+.topheader ul li a{
+	font-size: 13px;
+	line-height: 15px;
+	color:#fff;
+	text-decoration: none;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: middle;
+}
+.marginleft{
+	margin-left: 25px;
+}
+.location{
+	 background: url("../images/location.png");
+	 height: 16px;
+	 width:13px;
+	 display: inline-block;
+	 vertical-align: middle;
+}
+.contact{
+	 background: url("../images/contact.png");
+	 height: 16px;
+	 width:17px;
+	 display: inline-block;
+	 vertical-align: middle;
+}
+.header{
+	background-color: #fff;
+	border:none;
+	border-radius: 0px;
+	min-height: auto;
+	margin-bottom: 0px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.logo{
+	height: auto;
+}
+.header ul{
+	padding-top: 15px;
+	width:375px;
+}
+.header ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: 700;
+	color: #000;
+}
+.header .headerul>li>a{
+	color: #000;
+}
+.header .headerul>li>a:hover{
+	color:#e63547;
+	border-bottom: 1px solid ##e63547; 
+}
+.banner{
+	padding-top: 187px;
+	padding-bottom: 231px;
+  text-align: center;	
+  background: url("../images/banner.png") no-repeat center center;
+  background-size:cover;
+  margin-bottom: 115px;
+}
+.banner h3{
+	font-size: 72px;
+	line-height: 63px;
+	color:#fff;
+	margin-bottom: 40px;
+	font-weight: normal;
+}
+.banner strong{
+	color:#e63547;
+	font-weight:700;
+}
+.button{
+	padding:27px 78px;
+	background-color:#e63547;
+	border:none;
+	color:white;
+	font-size: 14px;
+	line-height: 16px;
+	display: inline-block;
+}
+.button:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.banner p{
+	font-size: 26px;
+	color:white;
+	line-height: 42px;
+	color:white;
+	margin-bottom: 52px;
+	margin-left: 138px;
+	margin-right: 138px;
+
+}
+
+.section{
+	text-align: center;
+	margin-bottom: 110px;
+}
+.section strong{
+	color:#e63547;
+	font-weight:700;
+}
+.section h4{
+	font-size: 36px;
+	line-height: 25px;
+	background: url("../images/border.png") no-repeat center bottom;
+	padding-bottom: 37px;
+	margin-bottom: 58px;
+	font-weight:400;
+}
+.section h2{
+ 	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top:53px;
+	margin-bottom: 31px; 
+	color: #000;
+}
+.section a{
+	display: block;
+	height: 101px;
+}
+.section p{
+	font-size: 14px;
+	color:#616161;
+	line-height: 25px;
+	font-weight: 400;
+}
+
+.mission{
+	
+  padding-top:132px;
+  padding-bottom: 167px;
+  text-align: center;	
+  background: url("../images/bannermission.png") no-repeat center center;
+  background-size:cover;	
+  margin-bottom:59px;
+}
+.mission p{
+	font-size: 18px;
+	color:white;
+	line-height: 32px;
+	color:#fff;
+	margin-left: 168px;
+	margin-right: 168px;
+	font-weight: 400;
+}
+.mission h3{
+	font-size: 36px;
+	line-height:25px;
+	color:#fff;
+	font-weight:400;
+	margin-bottom: 43px;	
+	
+}
+.mission strong{
+	color:#e63547;
+	font-weight:700;
+}
+.nextpara {
+margin-top: 27px;
+}
+.clients{
+	margin-bottom: 98px;
+}
+ .clients .image{
+ 	height: 98px;
+	width: 171px;
+ }
+ .clients h5{
+	font-size: 36px;
+	line-height: 25px;
+	font-weight: 400;
+	margin-bottom: 58px;
+}
+.clients strong{
+	color: #ea5a68;
+	font-weight: 700;
+}
+.clients a{
+	display: inline-block;
+}
+.footer{
+	border-radius: 0px;
+	border:none;
+	margin-bottom: 0px;
+	background-color: #2b2c31;
+	min-height: auto;
+	padding-top: 66px;
+	padding-bottom: 60px;
+}
+.footer ul{
+	list-style-type: none;
+}
+.footer h3{
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+	padding-bottom:15px;
+	border-bottom: 1px solid #2f3035;
+	margin-bottom: 32px;
+	font-weight: 400;
+}
+
+.footer ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: 400;
+}
+.footer ul li a:hover{
+	color:#ea5a68;
+}
+.footer ul li span{
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 400;
+}
+.contactspace{
+	margin-bottom:30px;
+}
+.awards a{
+	display: inline-block;
+}
+.footerimg{
+	padding:20px;
+}
+.bottomfooter{
+	padding-top: 44px;
+	padding-bottom: 28px;
+	background-color: #26272b;
+}
+.bottomfooter p{
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+	font-weight: 400;
+}
+.nfpa{
+	padding-top: 25px;
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+	.section p{
+		margin-left: 5px;
+	}
+	.header ul{
+		width:275px;
+	}
+	.banner p{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+	.mission p{
+		margin-left: 60px;
+	margin-right: 60px;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.container{
+		width: 100%;
+	}
+	.topheader{
+		display: none;
+	}
+.footerimg{
+	padding: 5px;
+
+}
+.imgsize{
+	margin-bottom: 20px;
+}
+.professionalimg{
+	width:130px;
+}
+.navbar-brand>img {
+	width: 265px;
+}
+.banner{
+	background: url("../images/bannermob.png") no-repeat center center;
+	padding-top: 39px;
+	padding-bottom: 21px;
+  margin-bottom:55px;
+  background-size: cover;
+}
+.banner h3{
+	font-size: 36px;
+	line-height:24px;
+	color:#fff;
+	margin-bottom: 12px;
+	font-weight: 400;
+}
+.banner p{
+	font-size: 12px;
+	color:white;
+	line-height:18px;
+	color:white;
+	margin-bottom: 18px;
+	margin-left: 21px;
+	margin-right: 21px;
+	font-weight: 400;
+}
+.button{
+	padding:15px 45px;
+	background-color:#e63547;
+	border:none;
+	color:white;
+	font-size: 8px;
+	line-height: 10px;
+	display: inline-block;
+	font-weight: 400;
+	text-decoration: none;
+}
+.comprehensiveness{
+	margin-bottom: 55px;
+}
+
+.mission{
+	
+  padding-top:59px;
+  padding-bottom:64px;
+  text-align: center;	
+  background: url("../images/bannermissionmob.png") no-repeat center center;
+  background-size:cover;	
+  margin-bottom:59px;
+}
+.mission h3{
+	margin-bottom:60px;	
+}
+.mission p{
+	font-size: 16px;
+	color:white;
+	line-height: 32px;
+	color:#fff;
+	margin-left: 15px;
+	margin-right: 15px;
+	
+}
+.clients strong{
+	display: block;
+}
+.section{
+	margin-bottom: 40px;
+}
+ .clients h5{
+	line-height: 38px;
+	margin-bottom: 55px;
+}
+.clients .image{
+	width: 141px;
+	margin-left: 7px;
+}
+.address{
+	display: block;
+}
+}
