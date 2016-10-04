@@ -176,8 +176,8 @@ body{
 	padding-left: 17px;
 	padding-right: 9px;
 	background-color: #fff;
-	padding-top: 11px;
-	padding-bottom: 11px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-bottom:1px solid #d4d4d4;
  /* For browsers that do not support gradients */
     background: linear-gradient(#fff, #f6f6f6); /* For Safari 5.1 to 6.0 */
@@ -445,7 +445,7 @@ padding-right: 10px;
 }
 .applyalgo li{
 	float: left;
-	border-right:1px solid #d4d4d4;
+	
 }
 .applyalgo ul li a{
 	text-decoration: none;
@@ -459,11 +459,11 @@ padding-right: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
 
-		
 }
+		
 .applyalgo ul li a:hover{
 	background-color:#fff;
-
+border-right:1px solid #d4d4d4;
 	}
 .algorithm{
 	border:1px solid #d4d4d4;
@@ -491,6 +491,7 @@ padding-right: 10px;
 }
 .report ul{
 	list-style-type: none;
+	margin-top: -2px;
 }
 .report ul li{
 	padding-top:6.5px;
@@ -564,10 +565,10 @@ padding-right: 10px;
 	list-style-type: none;
 }
 .contentwrapper li{
-	padding-top: 16px;
+	padding-top: 14px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-bottom: 16px;
+	padding-bottom: 14px;
 	border-bottom: 1px solid #d1d1d1;
 }
 .wrap{
