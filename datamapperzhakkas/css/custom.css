@@ -161,8 +161,8 @@ body{
 }
 .wrapper{
 	background-color: #f1f1f1;
-	padding-bottom: 49px;
 	padding-top: 11px;
+	padding-bottom: 49px;
 }
 .leftcol{
 	width: 558px;
@@ -655,4 +655,19 @@ padding-right: 10px;
 .contentwrapper li:last-child
 {
  background:linear-gradient(#fff, #f6f6f6); /* For Opera 11.1 to 12.0 */
+}
+.footer{
+	padding-top:6px;
+	padding-bottom:6px;
+	background-color:#282828;
+}
+
+.footer p{
+	font-size:14px;
+	line-height:16px;
+	color:white;
+	text-align:center;
+}
+.footer span{
+	color:red;
 }
