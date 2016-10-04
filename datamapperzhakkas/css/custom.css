@@ -668,6 +668,7 @@ padding-right: 10px;
 	color:white;
 	text-align:center;
 }
-.footer span{
+.footer a{
 	color:red;
+	text-decoration: none;
 }
