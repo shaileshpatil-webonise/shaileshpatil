@@ -363,8 +363,11 @@ body{
 }  
 .portfolio > .container >ul > li{
 	float: left;
-	margin-right:9px;
+	margin-right:18px;
 	margin-bottom: 64px;
+}
+.portfolio > .container >ul > li.time{
+margin-right: 0px;
 }
 .portfolio > .container >ul > li.clear{
 	float: none;
