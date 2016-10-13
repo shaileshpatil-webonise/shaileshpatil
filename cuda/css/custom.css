@@ -83,8 +83,12 @@ body{
 	margin:0 auto;
 	text-align:center;
 }
-.hi{
-	margin-left: 67px;
+.info span{
+	font-size: 42.16px;
+	line-height: 48.82px;
+	color:#fff;
+	padding-left: 67px;
+	font-weight: 700;
 }
 .info h2{
 	font-size: 42.16px;
@@ -245,47 +249,48 @@ body{
 	color:#643a79;
 }
 .fb{
-    background-image: url('../images/fb.png');
+    background-image: url('../images/sprite.png');
         background-repeat:no-repeat;
     display: inline-block;
-    
+    background-position: -134px -8px;
     height: 32px;
     width: 32px;
     vertical-align: middle;
 
 }
 .twitter{
-	 background-image: url('../images/twitter.png');
+	 background-image: url('../images/sprite.png');
         background-repeat:no-repeat;
     display: inline-block;
-    
+    background-position: -215px -5px;
     height: 32px;
     width: 32px;
     vertical-align: middle;
 }
 .linkedin{
-	background-image: url('../images/linkedin.png');
+	background-image: url('../images/sprite.png');
         background-repeat:no-repeat;
     display: inline-block;
-    
+     background-position: -293px -5px;
     height: 32px;
     width: 32px;
     vertical-align: middle;
 }
 .mail{
-		background-image: url('../images/mail.png');
+		background-image: url('../images/sprite.png');
         background-repeat:no-repeat;
     display: inline-block;
-    
+     background-position: -353px -2px;
     height: 32px;
     width: 32px;
     vertical-align: middle;
 }
 .socialicons ul{
 	margin-top: 30px;
+	text-align: center;
 }
 .socialicons ul li{
-	float: left;
+	display: inline-block;
 	margin-left: 11px;
 }
 .socialicons ul li a{
@@ -293,8 +298,4 @@ body{
 }
 .socialicons ul li.clear{
 	float: none;
-}
-.kate{
-	width: 160px;
-	margin: 0 auto;
 }
