@@ -159,7 +159,7 @@ body{
 	margin-top: 52px;
 	margin-bottom: 20px;
 }
-.services ul li span{
+.services ul li p{
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
@@ -239,7 +239,7 @@ body{
 	display: block;
 	margin-bottom: 23px;
 }
-.team ul li span{
+.team ul li p{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -298,4 +298,275 @@ body{
 }
 .socialicons ul li.clear{
 	float: none;
+}
+.portfolio{
+	text-align: center;
+	background-color: #ffdd99;
+	padding-top: 108px;
+	padding-bottom: 108px;
+}
+.portfolioinfo{
+	width: 567px;
+	margin:0 auto;
+	margin-bottom: 62px;
+}
+.portfolioinfo h3{
+	font-size: 40px;
+	line-height: 42px;
+	font-weight: 700;
+	color:#393939;
+	background: url("../images/border.png") no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-bottom:21px;
+}
+.portfolioinfo p{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #393939;
+	margin-bottom: 40px;
+}
+
+.portfolioinfo ul li{
+	display: inline-block;
+		margin-right: 9px;
+}
+
+.portfolioinfo ul li a{
+	text-decoration: none;
+
+	color: #393939;
+	font-size: 18px;
+	line-height: 19.5px;
+	background-color: #ebc985;
+	padding:9.5px 28px;
+	display: block;
+	border-radius: 3px;
+}
+.portfolioinfo ul li a.web{
+	padding: 9.5px 23.5px;
+}
+.portfolioinfo ul li a.apps{
+	padding: 9.5px 24.5px;
+}
+.portfolioinfo ul li a.icons{
+		padding: 9.5px 22px;
+}
+.portfolioinfo ul li a.active{
+	background-color: #fff;
+}
+.portfolioinfo ul li a:hover{
+	background-color: #fff;
+}
+.portfolio > .container >ul{
+
+}  
+.portfolio > .container >ul > li{
+	float: left;
+	margin-right:9px;
+	margin-bottom: 64px;
+}
+.portfolio > .container >ul > li.clear{
+	float: none;
+	margin-right: 0px;
+}
+.portfolio > .container >ul > li > a{
+	display: block;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 19px;
+	color: #393939;
+	text-decoration: none;
+}
+.portfolio > .container >ul > li > img
+{
+	display: block;
+}
+.portfolio > .container >ul > li > a > span{
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+}
+.portfolio > .container > .loadbtn
+{
+margin-top:18px;
+}
+.portfolio > .container > .loadbtn > a{
+	text-decoration: none;
+	color:#fff;
+	display:inline-block;
+	background-color: #17c2a4;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26.19px;
+	border-radius: 3px;
+	padding: 22px 59px;
+	
+}
+.portfolio > .container > .loadbtn > a:hover{
+background-color:#d74680
+}
+.aboutus{
+	background-color: #d74680;
+	text-align: center;
+	padding-top: 108px;
+}
+.peoplesay{
+	margin-bottom: 68px;
+}
+.peoplesay h3{
+	font-size: 40px;
+	line-height: 42px;
+	font-weight: 400;
+	color:#fff;
+	background: url("../images/border.png") no-repeat center bottom;
+	padding-bottom:19px;
+	margin-bottom:20px;
+}
+
+.peoplesay span{
+	font-size: 18px;
+	line-height: 26px;
+	color: #fff;
+}
+.clients{
+	height: 96px;
+	width: 96px;
+	border-radius: 50%;
+	float: left;
+}
+.aboutus ul li.clear{
+	float: none;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 0px;
+}
+.aboutus ul li{
+	float: left;
+	width: 550px;
+	margin-bottom:140px;
+}
+.clientinfo{
+	float: left;
+	margin-left:48px;
+	text-align: left;
+}
+.clientinfo p{
+	font-size: 21px;
+	line-height: 31px;
+	color: #fff;
+	width: 336px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.clientinfo h5{
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 24px;
+	color: #fff;
+}
+.clientinfo span
+{
+	font-size: 18px;
+	line-height: 26px;
+	color:#ffdd99;
+}
+
+
+.enquiry{
+	background-color: #3c5499;
+	padding-top: 119px;
+	text-align: center;
+	padding-bottom:115px; 
+}
+.address{
+	margin-bottom:72px; 
+}
+.address h3{
+	font-size: 40px;
+	line-height: 42px;
+	font-weight: 400;
+	color:#fff;
+	background: url("../images/border.png") no-repeat center bottom;
+	padding-bottom:21px;
+	margin-bottom:21px;
+}
+
+.address span{
+	font-size: 18px;
+	line-height: 26px;
+	color:#fff;
+	font-weight: 400;
+}
+.enquiry input{
+	background-color: #273a71;
+	color:#fff;
+	font-size:18px;
+	line-height: 18px;
+	padding: 17px 25px ;
+	border-radius: 3px;
+	border:none;
+	width: 364px;
+	margin-right: 32px;
+	display: inline-block;
+}
+.enquiry input[placeholder]{
+
+}
+form
+{
+	width:864px;
+	margin: 0 auto;
+}
+textarea{
+	display:block;
+	background-color: #273a71;
+	color:#fff;
+	font-size:18px;
+	line-height: 18px;
+	border-radius: 3px;
+	border:none;
+	width: 815px;
+	padding: 25px;
+	margin-top: 27px;
+	height: 150px;
+		margin-bottom: 59px;
+}
+.enquiry input.email{
+	margin-right: 0px;
+}
+.enquiry input.submit{
+	background-color: #30bae7;
+	margin-right: 0px;
+	padding: 0px;
+	width:294px;
+	height: 70px;
+}
+.footer{
+	background-color: #344b8e;
+	padding-top: 43px;
+	padding-bottom: 43px;
+	
+}
+.footer ul li.clear{
+	float: none;
+	margin-left: 0px;
+}
+.footer ul li{
+	float: left;
+	margin-left: 56px;
+}
+.footer ul li a:hover{
+	color:#30bae7; 
+}
+.footer ul li a.active{
+color:#30bae7; 
+}
+.footer ul li a{
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 400;
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
 }
