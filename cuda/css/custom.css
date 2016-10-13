@@ -380,7 +380,7 @@ margin-right: 0px;
 	line-height: 19px;
 	color: #393939;
 	text-decoration: none;
-	
+
 }
 .portfolio > .container >ul > li > img
 {
@@ -523,7 +523,6 @@ form
 	margin: 0 auto;
 }
 textarea{
-	display:block;
 	background-color: #273a71;
 	color:#fff;
 	font-size:18px;
