@@ -97,21 +97,25 @@ body{
 	background-image: url('../images/sprite.png');
         background-repeat:no-repeat;
     display: inline-block;
-    background-position: -58px -0px;
+    background-position: -101px -0px;
     height: 25px;
     width:25px;
+    background-color: #fff;
     vertical-align: middle;
 	margin-right: 10px;
-	background-color: #fff;
-
+	border: none;
+	padding: 0px;
+	    outline: -webkit-focus-ring-color auto 0px;
 }
-.searchbox input{
+.searchbox .searchclick{
 	font-size: 12px;
 	line-height: 14px;
 	color: #888888;
 	font-weight: 700;
 	width:66px;
 	border: none;
+	padding: 4px;
+	    outline: -webkit-focus-ring-color auto 0px;
 }
 .navbarbelow{
 	float: left;
@@ -403,6 +407,9 @@ padding-right: 10px;
 	text-decoration: none;
 
 }
+.iotreports ul li a:hover{
+	color: #d6222d;
+}
 .vendorinfo p{
 	font-size: 14px;
 	line-height: 22px;
@@ -421,13 +428,13 @@ padding-right: 10px;
 
 .sectionthree{
 	float: left;
-	width: 209px;
+	width: 210px;
 }
 .help{
 	margin-top: 30px;
 	background-color: #f3f3f3;
-	padding-left:  15px;
-	padding-right: 15px;
+	padding-left:  13.5px;
+	padding-right: 13.5px;
 	padding-top: 5px;
 	padding-bottom: 17.5px;
 }
@@ -448,7 +455,7 @@ padding-right: 10px;
 	font-size: 13px;
 	line-height: 20px;
 	color: #0099cc;
-	display: inline-block;
+
 }
 .helpinfo a:hover{
 	color: #222;
@@ -565,6 +572,12 @@ margin-top: 24px;
 	display: inline-block;
 	padding: 15px 37px;
 	border-radius: 4px;
+}
+.analyst ul li a{
+	display:block;
+}
+.livechat:hover{
+	background-color:#8fcc30;
 }
 .parttwo{
 	padding-top: 28px;
