@@ -330,7 +330,7 @@ font-weight: 400;
 }
 .overview ul li{
 	float: left;
-	margin-right: 22px;
+	margin-right: 10px;
 }
 .overview ul li.clear{
 	float: none;
@@ -378,6 +378,9 @@ padding-right: 10px;
    	margin-right: 0px;
    	background-color: #7eb923;
 }
+.iotreports ul li h5.sectwoboreder{
+		border-bottom: 1px solid #6b9d1e;
+}
 .iotreports ul li h5{
 	font-size: 18px;
 	line-height: 26px;
@@ -418,14 +421,19 @@ padding-right: 10px;
 	margin-top: 3px;
 }
 .knowarrow{
-	height: 11px;
-	width:15px;
-	background:url('../images/knowarrow.png');
-	display: inline-block;
-	vertical-align: middle;
+	  background-image: url('../images/sprite.png');
+        background-repeat:no-repeat;
+    display: inline-block;
+    background-position: -163px -50px;
+    height: 29px;
+    width:29px;
+    vertical-align: middle;
 	margin-left: 10px;
+	margin-top: 4px;
 }
-
+.knowarrow:hover{
+	background-position: -163px -50px;
+}
 .sectionthree{
 	float: left;
 	width: 210px;
@@ -573,8 +581,8 @@ margin-top: 24px;
 	padding: 15px 37px;
 	border-radius: 4px;
 }
-.analyst ul li a{
-	display:block;
+.analyst ul li:hover{
+	background-color: red;
 }
 .livechat:hover{
 	background-color:#8fcc30;
@@ -628,6 +636,9 @@ float: left;
     height: 25px;
     width:25px;
     vertical-align: middle;
+}
+.facebook:hover{
+	color: red;
 }
 .twitter{
 background-image: url('../images/sprite.png');
