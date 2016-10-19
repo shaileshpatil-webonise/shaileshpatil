@@ -1,0 +1,714 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+small,
+b,
+strong,
+u,
+i,
+ol,
+ul,
+li,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+}
+.clear{
+	clear:both;
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+body{
+	background-color:#fafafa;
+	  font-family: 'MicrosoftNewTaiLue';
+}
+.header{
+	background-color: #fffaeb;
+	    padding-top: 25px;    
+    padding-bottom: 21px;
+    box-shadow: 0px 1px 0px 0px #eaeaea;
+}
+.header a{
+	display: inline-block;
+}
+.header img{
+	display:block;
+}
+
+.wrapper{
+		margin-top: 20px
+}
+.navbar{
+	background-color: #4b4b4b;
+}
+.navbar ul{
+	float: left;
+	margin-left: 35px;
+	margin-top: 17px;
+margin-bottom: 11px;
+}
+.searchbox{
+	float: right;
+	margin: 10px;
+}
+.navbar ul li{
+	float: left;
+	margin-right: 35px;
+}
+.homeicon{
+	float: left;
+	margin-left: 18px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.home{
+		background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    display: inline-block;
+    background-position: -48px -12px;
+    height: 22px;
+    width: 24px;
+    vertical-align: middle;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
+	display: block;
+}
+.navbar ul li a:hover{
+color:#ea3d3d;
+}
+.search{
+background-color: #5f5f5f;
+border: none;
+padding: 9px;
+height: 7.1px;
+width: 193px;
+outline: -webkit-focus-ring-color auto 0px;
+}
+.btn{
+background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    display: inline-block;
+    background-position: -149px -3px;
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    border: none;
+    vertical-align: middle;
+    background-color: #5f5f5f;
+    margin-left: -32px;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.searchbox input[type='text']{
+	color: #ababab;
+font-size: 13px;
+line-height: 15px;
+}
+
+
+.contentwrapper{
+	margin-top: 20px;
+}
+.leftcol{
+	float: left;
+	width: 300px;
+}
+.centercol{
+	float: left;
+	width: 300px;
+	margin-left: 20px;
+}
+.rightcol{
+	float: left;
+	width: 300px;
+	margin-left: 20px;
+}
+.buycars{
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 23px;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.buynewcars{
+	  /*box-shadow: 0px 2px 3px 5px #f1f1f1;*/
+	  border:1px solid #ebebeb;
+}
+.subheading{
+	font-size: 18px;
+	line-height: 20px;
+	color: #e74c3c;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 7px;
+	margin-bottom: 15px;
+}
+.brand{
+	font-size: 14px;
+	line-height: 16px;
+	color: #4b4b4b;
+	display: inline-block;
+	margin-bottom: 8px;
+}
+.selectinfo{
+	font-size:13px;
+	line-height: 15px;
+	color: #828282;
+	display: block;
+	margin-bottom: 18px;
+}
+select{
+	width: 100%;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 10px;
+	color: #bbbbbb;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+}
+.model{
+	margin-top: 10px;
+}
+.budgetinfo{
+	margin-top: 23px;
+	
+}
+.budget{
+	float: left;
+	margin-left: 14px;
+	font-size: 16px;
+	line-height: 18px;
+	color: #6e6e6e;
+}
+.price{
+	float: right;
+	font-size: 14px;
+	line-height: 18px;
+	color: #6e6e6e;
+}
+.budgetimg {
+	float: left;
+	margin-top: 15px;
+}
+.budgetinfo img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.go{
+	float: right;
+	background-color:#ea3d3d;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	text-decoration: none;
+	padding: 6.2px 5px;
+	margin-top: 10px;
+}
+.question{
+	text-align: center;
+	padding-top: 11.5px;
+	padding-bottom: 11.5px;
+}
+.question span,a{
+font-size: 16px;
+line-height: 18px;
+}
+.question span{
+	color: #848484;
+	display: block;
+}
+.question a{
+	text-decoration: none;
+	color: #2980b9;
+}
+.question a:hover{
+	color: #ea3d3d;
+}
+.recommendedcars{
+	  border: 1px solid #ebebeb;
+	  margin-top: 20px;
+}
+.recommendedcars .buycars{
+	border-bottom:0px;
+	padding-bottom: 9px;
+}
+
+
+.recommendedcars h3{
+	margin-bottom: 0px;
+}
+.car{
+	border: 1px solid #e7e7e7;
+	float: left;
+}
+
+.car img{
+	display: block;
+}
+.carinfo{
+	float: left;
+	margin-left: 10px;
+	width: 187px;
+}
+.carinfo h4{
+	font-size: 16px;
+	line-height: 18px;
+	color:#4a4a4a; 
+	margin-bottom: 7px;
+}
+.carinfo span{
+	font-size: 13px;
+	line-height: 15px;
+	color: #838383;
+	display: block;
+}
+.recommendedcars ul li{
+	padding-top:14px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #ebebeb;
+}
+.recommendedcars ul li a{
+	display: block;
+}
+.recommendedcars ul li a:hover{
+	background-color:#e74c3c;
+	color: #fff;
+}
+.recommendedcars ul li:last-child{
+	border-bottom: none;
+}
+.view{
+	float: right;
+	font-size: 13px;
+	line-height: 15px;
+	color: #2980b9;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #2980b9;
+	text-decoration: none;
+	margin-top: 8px;
+}
+.view:hover{
+	color: #ea3d3d;
+	border-bottom:none;
+}
+.usedcars{
+	border: 1px solid #e9e9e9;
+}
+.redbtn{
+	text-decoration: none;
+	background-color: #ea3d3d;
+	color: #fff;
+	font-size: 16px;
+	line-height: 18px;
+	display: block;
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	margin-top: 10px;
+}
+.redbtn:hover{
+	background-color:#848484; 
+}
+.usedcars .buycars{
+	padding-bottom: 31px;
+}
+.choosebtn{
+	display:block;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	background-color: #848484;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 16px 18px;
+}
+.rightarrow{
+	background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    float: right;
+    background-position: -1px -19px;
+    height: 22px;
+    width: 19px;
+ }
+ .choosebtn:hover{
+ 	background-color: #ea3d3d;
+ }
+ .featuredcomparisions{
+ 	 border: 1px solid #ebebeb;
+ 	 margin-top: 20px;
+ }
+ .featuredcomparisions .buycars{
+ 	border-bottom: none;
+ } 
+ .ciaz{
+ 	border:1px solid #e7e7e7;
+ 	float: left;
+ 	    width: 119px;
+    height: 59px
+ }
+ .ciaz img{
+ 	display: block;
+ 	max-width: 100%;
+ }
+ .city{
+ 	float: right;
+ 	 	border:1px solid #e7e7e7;
+ 	 	        width: 119px;
+    height: 59px;
+    background-color: #fff;
+  
+ }
+ .city img{
+ 	display: block;
+ 		max-width: 100%;
+ }
+  .names span{
+  	font-size: 15px;
+  	line-height: 17px;
+  	text-align: center;
+  	color: #656565;
+  }
+   .names span .vs{
+   	font-size: 14px;
+   	line-height: 16px;
+   	color: #010101;
+   }
+.maruti{
+	float: left;
+	margin-left: 21px;
+	margin-right: 21px;
+}
+.hondac{
+	float: right;
+	margin-left: 23px;
+	margin-right: 23px;
+}
+.names{
+	margin-top: 13px;
+}
+.comparision{
+	
+	text-align: center;
+margin-top: 10px;
+}
+ .comparision a{
+	border-bottom: 1px solid #2980b9;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 14px;
+	color:#2980b9;
+}
+.comparision a:hover{
+	border-bottom: none;
+	color: #d04031;
+}
+.viewall{
+	float: right;
+	text-decoration: none;
+	font-size: 13px;
+	color: #2980b9;
+	line-height: 15px;
+	border-bottom: 1px solid #2980b9;
+	margin-top: 8px;
+}
+.viewall:hover{
+	border-bottom: none;
+	color: #d04031;
+}
+.featuredcomparisions ul li{
+	padding-top: 14px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #ebebeb;
+}
+.featuredcomparisions ul li:last-child{
+	border-bottom:0;
+	padding-bottom: 0px;
+}
+.featuredcomparisions .buycars{
+	padding-bottom: 9px;
+}
+.featuredcomparisions .subheading{
+	margin-bottom: 0px;
+}
+.sellcar{
+		  border: 1px solid #ebebeb;
+}
+.sellcar .buycars{
+	padding-bottom: 31px;
+}
+
+.experanswer{
+	border:1px solid #ebebeb;
+	margin-top: 20px;
+}
+.experanswer .buycars{
+	padding-bottom:9px;
+}
+
+.experanswer p{
+	font-size: 14px;
+	line-height: 16px;
+	color:#848484;
+	margin-bottom: 7px;
+}
+.experanswer span{
+	font-size: 13px;
+	line-height: 15px;
+	color: #878787;
+}
+.experanswer .carblack{
+	color:#000000;
+}
+.experanswer .subheading{
+	margin-bottom: 0px;
+}
+.experanswer ul li{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #ebebeb;
+}
+.experanswer ul li:last-child{
+	border-bottom: none;
+}
+.experanswer .view{
+	margin-top: 13px;
+}
+.go:hover{
+	background-color: #848484;
+}
+
+
+.popular .popularsection{
+	float: left;
+	height: 345px;
+}
+.popular .newssection{
+	float:left;
+	margin-left:20px; 
+}
+.popular{
+	margin-top: 18px;
+}
+.popularsection{
+	border: 1px solid #ebebeb;
+}
+.popularsection > .buycars > ul > li{
+	margin-right: 23px;
+	float: left;
+}
+.popularsection > .buycars > ul > li.clear{
+	float: none;
+	margin-right: none;
+}
+.popularsection > .buycars > ul{
+	border-bottom: 1px solid #ebebeb;
+	width: 501px;
+}
+
+.popularsection > .buycars > ul > li > a{
+	font-size: 18px;
+	line-height: 20px;
+	color:#5a5a5a; 
+	text-decoration: none;
+	display: block;
+		padding-bottom: 7px;
+	border-bottom: 2px solid #fafafa;
+}
+.popularsection > .buycars > ul > li > a:hover{
+	border-bottom: 2px solid #ea3d3d;
+	color: #ea3d3d;
+}
+.popularsection > .buycars {
+	padding-bottom: 0px;
+}
+.carlist{
+	width: 484px;
+	margin-top: 29px;
+}
+.carlist ul li{
+	float: left;
+	width: 161px;
+	margin-bottom: 24px;
+}
+.carlist ul li.clear{
+	float: none;
+	width: 0px;
+	margin-bottom: 0px;
+}
+.carlist ul li a{
+	font-size: 13px;
+	color: #858585;
+	line-height: 15px;
+	text-decoration: none;
+	display: block;
+}
+.carlist ul li a:hover{
+	color: #ea3d3d;
+}
+
+.popularsection .buycars{
+	position: relative;
+	border-bottom: none;
+	padding-top: 19px;
+}
+.carlist{
+	position: absolute;
+	display: none;
+}
+.popularsection .buycars:hover .carlist{
+	display: block;
+}
+.popular .newssection{
+	float:left;
+	margin-left:20px; 
+	width: 379px;
+	border:1px solid #ebebeb;
+}
+.newssection ul li p{
+	font-size: 14px;
+	line-height: 16px;
+	color: #666666;
+	margin-bottom: 12px;
+}
+.newssection .buycars{
+	padding-top: 19px;
+		padding-bottom: 18px;
+}
+.newssection ul li {
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #ebebeb;
+
+}
+.newssection ul li:last-child{
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+.newssection ul li span{
+	font-size: 12px;
+	line-height: 14px;
+	color: #9f9f9f;
+}
+.newssection .subheading{
+	margin-bottom: 0px;
+}
+
+.footer{
+	background-color: #3b3b3b;
+	margin-top: 20px;
+	padding-top: 28px;
+	padding-bottom: 34px;
+}
+.footer > .container > ul > li{
+width: 180px;
+margin-left: 60px;
+float: left;
+}
+.footer > .container > ul > li:first-child{
+	margin-left: 0px;
+}
+.footer > .container > ul > li.clear{
+	float: none;
+	margin-left: 0px;
+	width: 0px;
+}
+.footer  > .container > ul{
+	margin-left: 18px;
+}
+.footer  > .container > ul > li > h4{
+	font-size: 15px;
+	line-height: 17px;
+	 color: rgb(210, 210, 210);
+	border-bottom: 1px solid #666666;
+	padding-bottom: 9px;
+}
+.about{
+	margin-top: 17px;
+}
+.about li{
+	margin-bottom: 13px;
+}
+.about li:last-child{
+	margin-bottom: 0px;
+}
+.about li a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 14px;
+	color: #939393;
+	display: block;	
+}
+.about li a:hover{
+	color: #d33d3d;
+}
+.socialicons{
+	margin-top: 17px;
+}
+.socialicons li{
+	float: left;
+	margin-right: 14px;
+}
+.socialicons li.clear{
+	float: none;
+	margin-right: 0px;
+}
+.socialicons li a{
+	display: block;
+}
+.fb{
+	background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    float: right;
+    background-position: -112px -5px;
+    height: 20px;
+    width: 14px;
+ }
+ .rss{
+ 	background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    float: right;
+    background-position: -48px -72px;
+    height: 18px;
+    width: 18px;
+ }
+ .twitter{
+ 	background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    float: right;
+    background-position: -106px -72px;
+    height: 18px;
+    width: 18px;
+}
+ .youtube{
+ 	background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    float: right;
+    background-position: -1px -70px;
+    height: 23px;
+    width: 23px;
+ }
+ .linkedin{
+ 	background-image: url('../images/sprite.png');
+    background-repeat:no-repeat;
+    float: right;
+    background-position: -163px -70px;
+    height: 22px;
+    width: 18px;
+ }
