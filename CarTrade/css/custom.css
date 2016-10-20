@@ -29,13 +29,20 @@ label {
 .clear{
 	clear:both;
 }
+@font-face {
+  font-family: 'MicrosoftNewTaiLue';
+  src: url('../fonts/MicrosoftNewTaiLue.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container{
 	width: 940px;
 	margin: 0 auto;
 }
 body{
 	background-color:#fafafa;
-	  font-family: 'MicrosoftNewTaiLue';
+	 font-family: 'MicrosoftNewTaiLue', sans-serif;
 }
 .header{
 	background-color: #fffaeb;
@@ -461,8 +468,8 @@ margin-top: 10px;
 }
 
 .experanswer p{
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 13px;
+	line-height: 15px;
 	color:#848484;
 	margin-bottom: 7px;
 }
@@ -478,7 +485,7 @@ margin-top: 10px;
 	margin-bottom: 0px;
 }
 .experanswer ul li{
-	padding-top: 16px;
+	padding-top: 17px;
 	padding-bottom: 16px;
 	border-bottom: 1px solid #ebebeb;
 }
