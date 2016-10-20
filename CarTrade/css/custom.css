@@ -580,13 +580,12 @@ margin-top: 10px;
 }
 
 .popularsection .buycars{
-	position: relative;
 	border-bottom: none;
 	padding-top: 19px;
 	padding-bottom: 0px;
 }
 .carlist{
-	position: absolute;
+
 	display: none;
 }
 .popularsection .buycars:hover .carlist{
