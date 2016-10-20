@@ -671,7 +671,7 @@ float: left;
 	color: #d33d3d;
 }
 .socialicons{
-	margin-top: 17px;
+	margin-top: 20px;
 	margin-left: 7px;
 }
 .socialicons li{
@@ -683,7 +683,7 @@ float: left;
 	margin-right: 0px;
 }
 .socialicons li a{
-	display: block;
+	display:inline-block;
 }
 .fb{
 	background-image: url('../images/sprite.png');
