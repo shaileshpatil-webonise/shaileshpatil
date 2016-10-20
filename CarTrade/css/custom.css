@@ -512,14 +512,14 @@ margin-top: 10px;
 
 .popular .popularsection{
 	float: left;
-	height: 343px;
+	height: 345px;
 	 box-shadow: 0px 0px 5px 5px #ebebeb;
 	 
 }
 .popular .newssection{
 	float:left;
 	margin-left:20px; 
-		width: 377px;
+		width: 380px;
 			 
 	  box-shadow: 0px 0px 5px 5px #ebebeb;
 }
@@ -600,7 +600,7 @@ margin-top: 10px;
 }
 .newssection .buycars{
 	padding-top: 19px;
-		padding-bottom: 18px;
+		padding-bottom: 20px;
 		border-bottom: none;
 }
 .newssection ul li {
