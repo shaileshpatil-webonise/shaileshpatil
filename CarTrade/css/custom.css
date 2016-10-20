@@ -177,6 +177,7 @@ select{
 	line-height: 16px;
 	padding: 10px;
 	color: #bbbbbb;
+	outline: -webkit-focus-ring-color auto 0px;
 	border: 1px solid #e2e2e2;
 	background-color: #fff;
 }
@@ -301,7 +302,7 @@ text-decoration: none;
 }
 .view:hover{
 	color: #ea3d3d;
-	border-bottom:none;
+	border-bottom:#ea3d3d;
 }
 .usedcars{
 	 box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
@@ -353,6 +354,7 @@ text-decoration: none;
  }
  .featuredcomparisions .buycars{
  	border-bottom: none;
+ 	padding-bottom: 9px;
  } 
  .ciaz{
  	border:1px solid #e7e7e7;
@@ -430,16 +432,13 @@ margin-top: 10px;
 	color: #d04031;
 }
 .featuredcomparisions ul li{
-	padding-top: 14px;
+	padding-top: 13px;
 	padding-bottom: 6px;
 	border-bottom: 1px solid #ebebeb;
 }
 .featuredcomparisions ul li:last-child{
 	border-bottom:0;
 	padding-bottom: 0px;
-}
-.featuredcomparisions .buycars{
-	padding-bottom: 9px;
 }
 .featuredcomparisions .subheading{
 	margin-bottom: 0px;
@@ -610,8 +609,8 @@ margin-top: 10px;
 .footer{
 	background-color: #3b3b3b;
 	margin-top: 20px;
-	padding-top: 28px;
-	padding-bottom: 34px;
+	padding-top: 32px;
+	padding-bottom: 40px;
 }
 .footer > .container > ul > li{
 width: 180px;
@@ -640,7 +639,7 @@ float: left;
 	margin-top: 17px;
 }
 .about li{
-	margin-bottom: 13px;
+	margin-bottom: 10px;
 }
 .about li:last-child{
 	margin-bottom: 0px;
@@ -657,6 +656,7 @@ float: left;
 }
 .socialicons{
 	margin-top: 17px;
+	margin-left: 7px;
 }
 .socialicons li{
 	float: left;
