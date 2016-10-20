@@ -134,16 +134,16 @@ line-height: 15px;
 .contentwrapper{
 	margin-top: 20px;
 }
-.leftcol{
+.sectionone{
 	float: left;
 	width: 300px;
 }
-.centercol{
+.sectiontwo{
 	float: left;
 	width: 300px;
 	margin-left: 20px;
 }
-.rightcol{
+.sectionthree{
 	float: left;
 	width: 300px;
 	margin-left: 20px;
@@ -472,41 +472,41 @@ margin-top: 10px;
 	padding-bottom: 33px;
 }
 
-.experanswer{
+.expertanswer{
 	 box-shadow: 3px 3px 5px #ebebeb;
 	border:1px solid #ebebeb;
 	margin-top: 20px;
 }
-.experanswer .buycars{
+.expertanswer .buycars{
 	padding-bottom:10px;
 }
 
-.experanswer p{
+.expertanswer p{
 	font-size: 13px;
 	line-height: 15px;
 	color:#848484;
 	margin-bottom: 7px;
 }
-.experanswer span{
+.expertanswer span{
 	font-size: 13px;
 	line-height: 15px;
 	color: #878787;
 }
-.experanswer .carblack{
+.expertanswer .carblack{
 	color:#000000;
 }
-.experanswer .subheading{
+.expertanswer .subheading{
 	margin-bottom: 0px;
 }
-.experanswer ul li{
+.expertanswer ul li{
 	padding-top: 17px;
 	padding-bottom: 16px;
 	border-bottom: 1px solid #ebebeb;
 }
-.experanswer ul li:last-child{
+.expertanswer ul li:last-child{
 	border-bottom: none;
 }
-.experanswer .view{
+.expertanswer .view{
 	margin-top: 13px;
 }
 .go:hover{
