@@ -655,35 +655,35 @@ float: left;
 .about{
 	margin-top: 17px;
 }
-.about li{
+.about ul li{
 	margin-bottom: 10px;
 }
-.about li:last-child{
+.about ul li:last-child{
 	margin-bottom: 0px;
 }
-.about li a{
+.about ul li a{
 	text-decoration: none;
 	font-size: 12px;
 	line-height: 14px;
 	color: #939393;
 	display: block;	
 }
-.about li a:hover{
+.about ul li a:hover{
 	color: #d33d3d;
 }
 .socialicons{
 	margin-top: 20px;
 	margin-left: 7px;
 }
-.socialicons li{
+.socialicons ul li{
 	float: left;
 	margin-right: 14px;
 }
-.socialicons li.clear{
+.socialicons ul li.clear{
 	float: none;
 	margin-right: 0px;
 }
-.socialicons li a{
+.socialicons ul li a{
 	display:inline-block;
 }
 .fb{
