@@ -601,7 +601,7 @@ margin-top: 10px;
 }
 .newssection .buycars{
 	padding-top: 19px;
-		padding-bottom: 20px;
+		padding-bottom:19px;
 		border-bottom: none;
 }
 .newssection ul li {
@@ -643,7 +643,7 @@ float: left;
 	width: 0px;
 }
 .footer  > .container > ul{
-	margin-left: 18px;
+	margin-left: 20px;
 }
 .footer  > .container > ul > li > h4{
 	font-size: 15px;
