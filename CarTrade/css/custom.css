@@ -225,7 +225,7 @@ select{
 	line-height: 18px;
 	color: #fff;
 	text-decoration: none;
-	padding: 6.2px 5px;
+	padding: 6px 4.5px;
 	margin-top: 10px;
 	font-weight: 400;
 }
@@ -277,6 +277,7 @@ text-decoration: none;
 	float: left;
 	margin-left: 10px;
 	width: 187px;
+	margin-top: 4px;
 }
 .carinfo h4{
 	font-size: 16px;
@@ -285,11 +286,11 @@ text-decoration: none;
 	font-weight: 400;
 	margin-bottom: 7px;
 }
-.carinfo span{
+.carinfo p{
 	font-size: 13px;
 	line-height: 15px;
 	color: #838383;
-	display: block;
+	
 }
 .recommendedcars ul li{
 	padding-top:14px;
@@ -308,10 +309,9 @@ text-decoration: none;
 	font-size: 13px;
 	line-height: 15px;
 	color: #2980b9;
-	padding-bottom: 1px;
 	border-bottom: 1px solid #2980b9;
 	text-decoration: none;
-	margin-top: 8px;
+	margin-top: 10px;
 }
 .view:hover{
 	color: #ea3d3d;
@@ -377,7 +377,8 @@ text-decoration: none;
  }
  .ciaz img{
  	display: block;
- 	max-width: 100%;
+ 	width: 100%;
+ 	height: 58px;
  }
  .city{
  	float: right;
@@ -389,7 +390,7 @@ text-decoration: none;
  }
  .city img{
  	display: block;
- 		max-width: 100%;
+ 		width: 100%;
  }
   .names span{
   	font-size: 15px;
@@ -419,7 +420,7 @@ text-decoration: none;
 	margin-right: 22px;
 }
 .names{
-	margin-top: 13px;
+	margin-top: 12px;
 }
 .comparision{
 	
@@ -432,10 +433,9 @@ margin-top: 10px;
 	font-size: 12px;
 	line-height: 14px;
 	color:#2980b9;
-	display: inline-block;
 }
 .comparision a:hover{
-	border-bottom: none;
+	border-bottom:1px solid #fafafa;
 	color: #d04031;
 }
 .viewall{
@@ -453,7 +453,7 @@ margin-top: 10px;
 }
 .featuredcomparisions ul li{
 	padding-top: 13px;
-	padding-bottom: 6px;
+	padding-bottom: 8px;
 	border-bottom: 1px solid #ebebeb;
 }
 .featuredcomparisions ul li:last-child{
@@ -475,14 +475,14 @@ margin-top: 10px;
 	margin-top: 20px;
 }
 .expertanswer .buycars{
-	padding-bottom:11px;
+	padding-bottom:10px;
 }
 
 .expertanswer p{
 	font-size: 13px;
 	line-height: 15px;
 	color:#848484;
-	margin-bottom: 7px;
+	margin-bottom: 8px;
 }
 .expertanswer span{
 	font-size: 13px;
