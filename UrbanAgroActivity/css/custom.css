@@ -88,7 +88,7 @@ font-size: 14px;
 line-height: 16px;
 color: #aaaaaa;
 border: none;
-padding: 6px 37px 6px 11px;
+padding: 6px 39px 6px 11px;
 font-weight: 400;
 outline: 0px;
 border-bottom: 1px solid #dddddd;
@@ -562,8 +562,8 @@ padding-top:18px;
 padding-bottom: 28px;
 }
 .footer{
-padding-top: 29px;
-padding-bottom: 45px;
+padding-top: 27px;
+padding-bottom: 42px;
 }
 .footer ul{
 float: left
@@ -580,6 +580,8 @@ text-decoration: none;
 font-size: 14px;
 line-height: 16px;
 color:#888888;
+padding-top: 2px;
+padding-bottom: 2px;
 font-weight: 400;
 display: block;
 }
