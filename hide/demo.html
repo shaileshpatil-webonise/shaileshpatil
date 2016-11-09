@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head> 
+<body>
+<div class="buttons">
+<i class="fa fa-minus-square" id="hideul" aria-hidden="true"></i>
+<i class="fa fa-plus-square" id="showul" aria-hidden="true"></i>
+</div>
+<ul class="navbar">
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About Us</a></li>
+	<li><a href="#">Contact</a></li>
+	<li class="clear"></li>
+</ul>
+
+<div class="content">
+<p>Javascript is easy to learn</p>
+<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.
+</p>
+</div>
+<button>See Fruits</button>
+<ul class="fruits">
+<li><a href="#">Mango</a></li>
+<li><a href="#">Orange</a></li>
+<li><a href="#">Apple</a></li>
+<li><a href="#">Cherry</a></li>
+<li><a href="#">Banana</a></li>
+<li><a href="#">Blackcurrent</a></li>
+<li><a href="#">Cherries</a></li>
+<li><a href="#">Coconut</a></li>
+<li><a href="#">Apple</a></li>
+<li><a href="#">Banana</a></li>
+<li><a href="#">Blackcurrent</a></li>
+<li><a href="#">Cherries</a></li>
+<li><a href="#">Coconut</a></li>
+<li><a href="#">Apple</a></li>
+<li class="clear"></li>
+</ul>
+
+
+<a href="#"><h4 class="mobileDrop">Find Your Way Around <span><i class="fa fa-caret-down linkIcon"></i></span></h4></a>
+
+<ul class="footerNav">
+     <li><a href="#">1st List Item</a></li>
+     <li><a href="#">2nd List Item</a></li>
+     <li><a href="#">3rd List Item</a></li>
+     <li class="clear"></li>
+</ul>
+<img src="images/banner.png">
+<script>
+$(document).ready(function(){
+    $("#hideul").click(function(){
+        $(".navbar").hide(500);
+    });
+    $("#showul").click(function(){
+        $(".navbar").show(500);
+    });
+     $("button").click(function(){
+        $(".fruits").toggle();
+    });
+     $( ".mobileDrop" ).click(function() {
+    var drop = $(this);
+    $( ".footerNav" ).slideToggle( 400, function()  {
+        drop.find('.fa.linkIcon').toggleClass('fa-caret-up fa-caret-down');
+    });
+});
+});
+</script>
+
+</body>
+</html>
+ 
