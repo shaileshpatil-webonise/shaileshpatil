@@ -517,6 +517,7 @@ width: 501px;
 font-size: 18px;
 line-height: 20px;
 color:#5a5a5a; 
+position: relative;
 text-decoration: none;
 display: block;
 padding-bottom: 7px;
@@ -698,4 +699,31 @@ height: 22px;
 width: 18px;
 display: inline-block;
 vertical-align: middle;
+}
+.PopularSection > .InnerBox > ul > li > a.active::after{
+
+	content: " ";
+    width: 0;
+    height: auto;
+    border-style: solid;
+    border-width: 5px 4px 0;
+    border-color: #ea3d3d transparent transparent;
+    line-height: 4;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -4px;
+    }
+.PopularSection > .InnerBox > ul > li > a:hover::after{
+	content: " ";
+    width: 0;
+    height: auto;
+    border-style: solid;
+    border-width: 5px 4px 0;
+    border-color: #ea3d3d transparent transparent;
+    line-height: 4;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -4px;	
 }
